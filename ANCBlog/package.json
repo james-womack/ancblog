@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "clean": "node build/script.clean.js",
+    "debug": "node node_modules/webpack/bin/webpack.js --config webpack.config.js",
     "dev": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.dev.js",
     "build": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.prod.js --env.prod",
     "lint": "eslint --ext .js,.vue src"
